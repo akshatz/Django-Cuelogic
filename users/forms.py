@@ -13,7 +13,6 @@ class UserRegisterForm(UserCreationForm):
 
 
 class UserUpdateForm(forms.ModelForm):
-	"""docstring for UserUpdateForm"""
 	email = forms.EmailField()
 
 	class Meta:
@@ -22,7 +21,6 @@ class UserUpdateForm(forms.ModelForm):
 
 
 class ProfileUpdateForm(forms.ModelForm):
-	"""docstring for ProfileUpdateForm"""
 	class Meta:
 		model = Profile
 		fields = ['image']
