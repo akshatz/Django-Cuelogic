@@ -9,7 +9,7 @@ verify_ssl = true
 django = "==2.2.10"
 django-auth-mixins = "==1.0.1"
 django-crispy-forms = "==1.7.2"
-pillow = "==7.0.0"
+pillow = "==8.3.2"
 pytz = "==2019.2"
 sqlparse = "==0.3.0"
 
